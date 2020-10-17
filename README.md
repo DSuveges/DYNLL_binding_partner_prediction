@@ -10,7 +10,7 @@ This repository contains scripts to identify binding motifs for DYNLL1/2 protein
 
 #### 1. Converting known binding sites to scores
 
-The first step in the binding site prediction: reading a list of binding sites and calculates the position specific distribution of the occurring aminoacids. The output of the program is the "scoring matrix", which is used for scoring the putative binding sites
+Reading a list of binding sites and calculating the position specific distribution of the occurring aminoacids. (all peptied must be aligned) The output of the program is the "scoring matrix", which is used for scoring the putative binding sites
 
 `src/motif2score.pl -i <infile> -o <outfile>`
 
